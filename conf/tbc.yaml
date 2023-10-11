@@ -1,0 +1,14 @@
+servers: [192.168.2.211, 192.168.2.212, 192.168.2.213, 192.168.2.214, 192.168.2.215]
+
+iface: ens32
+
+ports:
+    client    : 40010
+    generator : 40110
+    listener  : 40210
+    notifier  : 40310
+    replayer  : 40410
+    collector : 40510
+    heartbeat : 40610
+    evaluator : 40710
+    tracker   : 40810
